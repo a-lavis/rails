@@ -1,3 +1,7 @@
+## Unreleased
+
+*   Revert 980de46f543ab2c2b1a1a7caf494f3bf7885c82f.
+
 ## Rails 7.1.3.2 (February 21, 2024) ##
 
 *   No changes.

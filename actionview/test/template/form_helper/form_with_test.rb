@@ -387,7 +387,7 @@ class FormWithActsLikeFormForTest < FormWithTest
 
     form_with(model: post_form) { }
 
-    expected = whole_form("/posts/123", method: :patch) { "" }
+    expected = whole_form("/posts/123", method: :post) { "" }
 
     assert_dom_equal expected, @rendered
   end
